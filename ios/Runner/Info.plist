@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSLocationWhenInUseUsageDescription</key>            <!-- permission for the location: when the app is using location service is running in the background.  -->
+    <string>The location for your favorite place</string>     <!-- permission for the location message -->
+     <!-- NSLocationAlwaysAndWhenInUseUsageDescription : Use this very carefully. This key is required only if your iOS app uses APIs that access the user’s location information at all times, even if the app isn't running. -->
+     <!-- NSLocationAlwaysUsageDescription : Deprecated, use NSLocationAlwaysAndWhenInUseUsageDescription instead. -->
+    <key>NSPhotoLibraryUsageDescription</key>                 <!-- permission for the photo library -->
+    <string>Pick your favorite place image.</string>          <!-- permission for the photo library message -->
+    <key>NSCameraUsageDescription</key>                       <!-- permission for access to the camera -->
+    <string>Take your favorite place image.</string>          <!-- permission for access to the camera message-->
+    <key>NSMicrophoneUsageDescription</key>                   <!-- permission for access to the microphone, if you intend to record videos -->
+    <string>Take your favorite place image.</string>          <!-- permission for access to the microphone message -->
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Favorite Places</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>favorite_places</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+</dict>
+</plist>
